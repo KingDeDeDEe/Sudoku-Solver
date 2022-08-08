@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sudoku</title>
+    <style>
+      body {
+        transform: scale(4);
+        transform-origin: 0 0;
+        width: fit-content;
+      }
+
+      .box {
+        background-color: whitesmoke;
+        color: black;
+        width: 21px;
+        height: 21px;
+        vertical-align: middle;
+        text-align: center;
+        border: none;
+      }
+      
+      .box:hover, .box:focus {
+        background-color: lightblue;
+      }
+
+      .box:focus {
+        border: none;
+        outline:none;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="Sudoku Solver.js"></script>
+    <button onclick="solve()">Solve</button>
+  </body>
+</html>
